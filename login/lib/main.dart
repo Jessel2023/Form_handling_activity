@@ -49,8 +49,8 @@ class FirstPage extends StatelessWidget{
             ),
             ElevatedButton(
               onPressed: () {
-                print("Email: ${email.text}");
-                print("Password: ${password.text}");
+                print("Email : ${email.text}");
+                print("Password : ${password.text}");
               },
               child: Text("Submit"),
             )
